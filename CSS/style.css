@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Main Heading */
+#name{
+    border-bottom: burlywood 5px solid;
+    background-color: rgb(120, 1, 1);
+    height: 17rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#name h1{
+    font-size: 3.5rem;
+    color: white;
+}
+
+/* Main Content */
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+
+.container a {
+    display: grid;
+    justify-content: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    /* border: 2px solid burlywood; */
+    background-color: rgb(252, 241, 241);
+    margin: 20px 15px 10px ;
+}
+
+.container a img{
+    /* justify-content: center; */
+    width: 25vw;
+    border-radius: 10px;
+    /* height: ; */
+}
+
+.container a h2{
+    text-align: center;
+    margin: 15px 5px 2px 5px;
+}
